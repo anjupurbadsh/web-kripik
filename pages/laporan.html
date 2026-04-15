@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+    <h1>Dashboard Admin</h1>
+    <div class="profile">A</div>
+</div>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="../index.html">🏠 Dashboard</a></li>
+            <li><a href="produk.html">📦 Data Produk</a></li>
+            <li><a href="pesanan.html">🛒 Data Pesanan</a></li>
+            <li class="active"><a href="laporan.html">📄 Laporan</a></li>
+            <li><a href="user.html">👤 Data User</a></li>
+            <li onclick="logout()">🚪 Logout</li>
+        </ul>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <h2>📄 Laporan Produk & Penjualan</h2>
+
+        <div class="card">
+            <h3>📊 Ringkasan Keuangan</h3>
+            <p>💰 Total Pendapatan: <b>Rp 4.479.000</b></p>
+            <p>📉 Total Pengeluaran: <b>Rp 3.350.000</b></p>
+            <p>📈 Laba Bersih: <b>Rp 1.129.000</b></p>
+        </div>
+
+        <div class="card">
+            <h3>🔥 Produk Terlaris</h3>
+            <p>Kue Bawang (33 item terjual)</p>
+        </div>
+
+        <div class="card">
+            <h3>🛒 Detail Pendapatan Per Produk</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Total Terjual</th>
+                        <th>Total Pendapatan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kuping Gajah</td>
+                        <td>20</td>
+                        <td>Rp 440.000</td>
+                    </tr>
+                    <tr>
+                        <td>Untir-Untir</td>
+                        <td>15</td>
+                        <td>Rp 330.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function logout() {
+    localStorage.removeItem("user");
+    window.location.href = "../login.html";
+}
+</script>
+
+</body>
+</html>

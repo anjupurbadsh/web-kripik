@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Pesanan</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <h1>Dashboard Admin</h1>
+    <div class="profile">A</div>
+</div>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <ul>
+<li><a href="../index.html">🏠 Dashboard</a></li>
+<li><a href="produk.html">📦 Data Produk</a></li>
+<li class="active"><a href="pesanan.html">🛒 Data Pesanan</a></li>
+            <li><a href="#">📄 Laporan</a></li>
+            <li><a href="user.html">👤 Data User</a></li>
+            <li onclick="logout()">🚪 Logout</li>
+        </ul>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <h2>🛒 Data Pesanan</h2>
+
+        <button class="btn">+ Tambah Pesanan</button>
+
+        <div class="table-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Pemesan</th>
+                        <th>ID Produk</th>
+                        <th>Qty</th>
+                        <th>Total Harga</th>
+                        <th>Tanggal</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="tabel-pesanan"></tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/pesanan.js"></script>
+
+</body>
+</html>

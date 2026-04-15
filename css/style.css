@@ -1,0 +1,216 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #dcdcdc;
+}
+
+/* Centering */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Box login */
+.login-box {
+    background: #eee;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Label */
+.login-box label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, #444);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    opacity: 0.9;
+}
+
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #e5e5e5;
+}
+
+/* TOPBAR */
+.topbar {
+    background: #111;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    background: white;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.sidebar li.active {
+    background: black;
+    color: white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+    background: #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.table-box {
+    background: #eee;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: black;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.aksi {
+    cursor: pointer;
+}
+
+.aksi.edit {
+    color: blue;
+}
+
+.aksi.hapus {
+    color: red;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.sidebar li {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background: #ddd;
+    border-radius: 8px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <h1>Dashboard Admin</h1>
+    <div class="profile">A</div>
+</div>
+
+<!-- LAYOUT -->
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+<ul>
+    <li class="active"><a href="index.html">🏠 Dashboard</a></li>
+    <li><a href="pages/produk.html">📦 Data Produk</a></li>
+    <li><a href="pages/pesanan.html">🛒 Data Pesanan</a></li>
+    <li><a href="#">📄 Laporan</a></li>
+    <li><a href="pages/user.html">👤 Data User</a></li>
+    <li onclick="logout()">🚪 Logout</li>
+</ul>    
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <h2>Selamat Datang, <span id="nama"></span>!</h2>
+
+        <div class="card">
+            <h3>📦 Jumlah Produk</h3>
+            <p id="produk"></p>
+        </div>
+
+        <div class="card">
+            <h3>🛒 Jumlah Pesanan</h3>
+            <p id="pesanan"></p>
+        </div>
+
+        <div class="card">
+            <h3>👤 Jumlah User</h3>
+            <p id="user"></p>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
